@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "56a30eaabdaad1826cca956c2a3c0d55",
+    "packages": [
+        {
+            "name": "acarajetech/datasave",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lailson-dev/data-save.git",
+                "reference": "dd16872a2ee4bdbe695cbbac9f724924b98c93d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lailson-dev/data-save/zipball/dd16872a2ee4bdbe695cbbac9f724924b98c93d4",
+                "reference": "dd16872a2ee4bdbe695cbbac9f724924b98c93d4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "^7.4",
+                "php": "^7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AcarajeTech\\DataSave\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lailson Conceição",
+                    "email": "lailsondev@gmail.com"
+                }
+            ],
+            "description": "A simple library for data persistence.",
+            "time": "2020-09-09T14:21:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-iconv": "^7.4"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "files": ["app/functions/helpers.php"],
+    "psr-4": {
+      "App\\Controllers\\": "app\\controllers",
+      "App\\Models\\": "app\\models",
+      "App\\Classes\\": "app\\classes"
+    }
+  },
+  "require": {
+    "acarajetech/datasave": "v1.0.3",
+    "ext-iconv": "^7.4"
+  }
+}
